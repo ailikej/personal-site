@@ -19,10 +19,7 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Eric. I like building things.
-        I am a <a href="https://drexel.edu/cci/academics/computer-science-department/">Drexel MSCS</a> graduate, PSU Alumni, and
-        the co-founder and CEO of <a href="https://google.com">ESchange</a>. 
-      </p>
+      <p>Hi, Im Eric. I like building things. I am a <a href="https://drexel.edu/cci/academics/computer-science-department/">Drexel MSCS</a> graduate, PSU Alumni, and the co-founder and CEO of <a href="https://google.com">ESchange</a>. </p>
       <ul className="actions">
         <li>
           {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
